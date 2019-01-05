@@ -1,0 +1,12 @@
+#include <iostream>
+#define DOCTEST_CONFIG_IMPLEMENT
+#include "doctest.h"
+#include "sum.h"
+
+int main(){
+  int n=sum(5);
+  cout<<n;
+  return 0;
+
+
+}

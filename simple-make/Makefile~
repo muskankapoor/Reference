@@ -1,0 +1,8 @@
+main: main.o function.o
+	g++ -o main main.o function.o
+
+function.0: function.cpp func.h
+	g++ -o function.cpp
+
+clean:
+	rm -f main.o function.o
